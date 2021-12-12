@@ -1,0 +1,32 @@
+﻿Main.obj : error LNK2019: symbole externe non résolu SDL_CreateWindow référencé dans la fonction SDL_main
+Main.obj : error LNK2019: symbole externe non résolu SDL_DestroyWindow référencé dans la fonction SDL_main
+Main.obj : error LNK2019: symbole externe non résolu SDL_GL_CreateContext référencé dans la fonction SDL_main
+Main.obj : error LNK2019: symbole externe non résolu SDL_GL_SwapWindow référencé dans la fonction SDL_main
+Main.obj : error LNK2019: symbole externe non résolu SDL_GL_DeleteContext référencé dans la fonction SDL_main
+Main.obj : error LNK2019: symbole externe non résolu SDL_PollEvent référencé dans la fonction SDL_main
+Main.obj : error LNK2019: symbole externe non résolu SDL_GetTicks référencé dans la fonction SDL_main
+Main.obj : error LNK2019: symbole externe non résolu SDL_Init référencé dans la fonction SDL_main
+Main.obj : error LNK2019: symbole externe non résolu __imp_glewInit référencé dans la fonction SDL_main
+Main.obj : error LNK2019: symbole externe non résolu __imp___glewBindBuffer référencé dans la fonction SDL_main
+Main.obj : error LNK2019: symbole externe non résolu __imp___glewBufferData référencé dans la fonction SDL_main
+Main.obj : error LNK2019: symbole externe non résolu __imp___glewGenBuffers référencé dans la fonction SDL_main
+Main.obj : error LNK2019: symbole externe non résolu __imp___glewAttachShader référencé dans la fonction SDL_main
+Main.obj : error LNK2019: symbole externe non résolu __imp___glewCompileShader référencé dans la fonction SDL_main
+Main.obj : error LNK2019: symbole externe non résolu __imp___glewCreateProgram référencé dans la fonction SDL_main
+Main.obj : error LNK2019: symbole externe non résolu __imp___glewCreateShader référencé dans la fonction SDL_main
+Main.obj : error LNK2019: symbole externe non résolu __imp___glewEnableVertexAttribArray référencé dans la fonction SDL_main
+Main.obj : error LNK2019: symbole externe non résolu __imp___glewGetUniformLocation référencé dans la fonction SDL_main
+Main.obj : error LNK2019: symbole externe non résolu __imp___glewLinkProgram référencé dans la fonction SDL_main
+Main.obj : error LNK2019: symbole externe non résolu __imp___glewShaderSource référencé dans la fonction SDL_main
+Main.obj : error LNK2019: symbole externe non résolu __imp___glewUniform3f référencé dans la fonction SDL_main
+Main.obj : error LNK2019: symbole externe non résolu __imp___glewUniform4f référencé dans la fonction SDL_main
+Main.obj : error LNK2019: symbole externe non résolu __imp___glewUseProgram référencé dans la fonction SDL_main
+Main.obj : error LNK2019: symbole externe non résolu __imp___glewVertexAttribPointer référencé dans la fonction SDL_main
+Main.obj : error LNK2019: symbole externe non résolu __imp___glewBindVertexArray référencé dans la fonction SDL_main
+Main.obj : error LNK2019: symbole externe non résolu __imp___glewGenVertexArrays référencé dans la fonction SDL_main
+Main.obj : error LNK2019: symbole externe non résolu __imp_glewExperimental référencé dans la fonction SDL_main
+MSVCRTD.lib(exe_main.obj) : error LNK2019: symbole externe non résolu main référencé dans la fonction "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\GL\SDL\lib\x86\SDL2.lib : warning LNK4272: type d'ordinateur bibliothèque 'x86' en conflit avec le type d'ordinateur cible 'x64'
+C:\GL\SDL\lib\x86\SDL2main.lib : warning LNK4272: type d'ordinateur bibliothèque 'x86' en conflit avec le type d'ordinateur cible 'x64'
+C:\glew-2.2.0-win32\glew-2.2.0\lib\Release\Win32\glew32.lib : warning LNK4272: type d'ordinateur bibliothèque 'x86' en conflit avec le type d'ordinateur cible 'x64'
+C:\GLP\SDL-0\x64\Debug\SDL-0.exe : fatal error LNK1120: 28 externes non résolus

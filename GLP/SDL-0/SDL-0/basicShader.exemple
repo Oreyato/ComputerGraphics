@@ -1,0 +1,42 @@
+Basic example: =======================================
+
+#version version_number
+
+in type in_variable_name;
+out type out_variable_name;
+uniform type uniform_name;
+
+void main() {
+	// process input(s) and do some graphic stuff
+	...
+	// output processed stuff to output variable
+	out_variable_name = stuff_we_processed;
+}
+
+======================================================
+Types: ===============================================
+
+vectors: (with n between 1 to 4)
+	vecn  -> allows n real numbers to be stored in a vector
+	bvecn -> allows n booleans to be stored in a vector
+	ivecn -> allows n integers to be stored in a vector
+	uvecn -> allows n unsigned ints to be stored in a vector
+	dvecn -> allows n doubles to be stored in a vector
+
+	how to access it?
+		using x, y, z or w to access value 1 to 4
+
+======================================================
+In & out & uniform: ==================================
+
+in -> helps defining variables to be assigned by the main programm
+out -> defines output variables that are computed by the shader
+
+uniform -> uniform variables are global
+		   a uniform variable is unique per shader program object and can be accessed
+		   from any shader at any stage in the shader program
+		   +
+		   whatever you set the uniform value to, uniforms will keep their value until
+		   they're either reset or updated
+
+======================================================
